@@ -39,7 +39,7 @@ Locally preview production build:
 yarn preview
 ```
 
-Run json-server
+## Run json-server
 
 yarn run json:server
 
