@@ -6,7 +6,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "json:server": "json-server --watch db.json --port 5000"
+    "json:server": "json-server --watch db.json"
   },
   "devDependencies": {
     "nuxt": "^3.3.1"
