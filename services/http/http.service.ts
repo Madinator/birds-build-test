@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const headersAppJSON = { 'Content-Type': 'application/json' };
 
-const baseApiUrl = "https://hungry-lemons-enter-92-49-239-250.loca.lt";
+const baseApiUrl = "https://json-server-vercel-test-five.vercel.app";
 
 
 const _axiosInstance = axios.create({
