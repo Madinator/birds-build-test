@@ -16,7 +16,7 @@ const setSearchText = ():void => {
         <input class="input" v-model="text" @input="setSearchText"/>
         <div class="button-wrapper">
             <ButtonWithIcon 
-                image="@/assets/svg/search.svg"  
+                image="/svg/search.svg"  
                 @click="setSearchText"
             />
         </div>
