@@ -48,7 +48,7 @@ const pay = () => {
           <h6 class="type">{{ data?.selling_type }}</h6>
           <h2 class="name">{{ data?.name }}</h2>
           <div class="location">
-            <img class="geo" src="@/assets/svg/geo.svg" alt="" />
+            <img class="geo" src="/_nuxt/assets/svg/geo.svg" alt="" />
             <span class="city">{{ data?.location }}</span>
           </div>
           <div class="seller">
