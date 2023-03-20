@@ -102,7 +102,7 @@ const pay = () => {
   border-radius: 20px;
   display: flex;
   flex-flow: row;
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1200px) {
     flex-flow: column;
   }
   .base-info {

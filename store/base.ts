@@ -86,6 +86,7 @@ export const useBaseStore = defineStore({
       .then((response: TypedResponse<Product[]>) => {
         if(response.status === 200) {
           this.$state.stocks.data = response.data;
+          console.log(this.$state.stocks.data);
         }
       })
       .catch((error) => {

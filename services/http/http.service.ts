@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const headersAppJSON = { 'Content-Type': 'application/json' };
 
-const baseApiUrl = "http://localhost:5000";
+const baseApiUrl = "https://hungry-lemons-enter-92-49-239-250.loca.lt";
 
 
 const _axiosInstance = axios.create({
