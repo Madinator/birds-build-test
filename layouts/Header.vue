@@ -8,9 +8,9 @@ import { Pages } from '@/typings/index';
         <div class="top"></div>
         <nav class="navigation">
             <ul class="navigation__wrapper">
-                <li><NavItem :to="Pages.Favorite" path="/_nuxt/assets/svg/favorite.svg" name="Избранное" /></li>
-                <li><NavItem :to="Pages.Stock" path="/_nuxt/assets/svg/stock.svg" name="Склад"/></li>
-                <li><NavItem :to="Pages.Deal" path="/_nuxt/assets/svg/deal.svg" name="Сделки"/></li>
+                <li><NavItem :to="Pages.Favorite" path="@/assets/svg/favorite.svg" name="Избранное" /></li>
+                <li><NavItem :to="Pages.Stock" path="@/assets/svg/stock.svg" name="Склад"/></li>
+                <li><NavItem :to="Pages.Deal" path="@/assets/svg/deal.svg" name="Сделки"/></li>
             </ul>
         </nav>
         <slot></slot>

@@ -89,7 +89,7 @@ const pay = () => {
           {{ data?.paid ? "Оплачено" : "Оплатить" }}
         </button>
         <div class="button-wrapper">
-          <ButtonWithIcon @click="toggleFavorite" image="/_nuxt/assets/svg/favorite.svg"/>
+          <ButtonWithIcon @click="toggleFavorite" image="@/assets/svg/favorite.svg"/>
         </div>
       </div>
     </div>
